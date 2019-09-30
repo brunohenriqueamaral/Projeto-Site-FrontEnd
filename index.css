@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.dark { 
+    background-color:#2b313e; 
+    color: #fcfcfd;
+}
+
+.light { 
+    background-color: #fcfcfd;
+    color: #2b313e;
+}
+
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+section {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+section h3 {
+    font-size: 1.7em;
+    margin-bottom: 0.5em;
+}
+
+section img {
+    width: 100%;
+    max-width: 300px;
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 3em;
+}
+
+header li a {
+    color:#99a0b0;
+    font-weight: lighter;
+}
+
+.identity {
+    color: white;
+    background-color: #4285f4;
+    padding: 7em 2em;
+}
+
+.identity h1{
+    font-size: 2.5em;
+    margin-bottom: 0.7em;
+}
+
+.identity h2{
+    font-size: 1.5em; 
+    font-weight: 300;
+}
+
+
+.projects-header {
+    width: 30%;
+    float: left;
+}
+
+.projects-header h3 {
+	margin-top: 1em;
+}
+
+.projects {
+    margin-left: 30%;
+}
+
+
+.projects li {
+    background-color:#6f768b; 
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.projects li a {
+    color: white;
+    font-size: 1.3em;
+}
+
+.projects li p{
+    color: #d2d6e2;
+    margin-top: 0.5em;
+}
+
+#sobre p.bio {
+    color: #4285f4;
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+#sobre p.text {
+    margin: 1em;
+}
+
+#sobre p.bio, #sobre p.text {
+	width: 50%;
+}
+
+#sobre img {
+    width:150px;
+    float: right;
+}
+
+#contato li {
+    display: inline-block;
+    margin: 1em;
+}
+
+footer {
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
